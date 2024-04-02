@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jefferson*</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    
+    
+    <link rel="shortcut icon" href="/js_100_laposhko/assets/favicon-dd95403b.ico" />
+    <script type="module" crossorigin src="/js_100_laposhko/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_100_laposhko/assets/vendor-2e075fbd.js">
+    <link rel="stylesheet" href="/js_100_laposhko/assets/vendor-c6903f92.css">
+    <link rel="stylesheet" href="/js_100_laposhko/assets/index-cf7df0eb.css">
+  </head>
+
+  <body>
+    <header class="header">
+  <div class="header-container container">
+    <!-- logo -->
+    <a href="index.html" class="header-logo">
+      <picture>
+        <source
+          srcset="/js_100_laposhko/assets/header-logo-43d11395.png 1x, /js_100_laposhko/assets/header-logo@2x-c6b763ff.png 2x"
+        />
+        <img
+          class="header-logo-img"
+          src="/js_100_laposhko/assets/header-logo-43d11395.png"
+          alt="portrait"
+        />
+      </picture>
+
+      jefferson*</a
+    >
+    <!-- navigation -->
+    <nav class="header-nav">
+      <button class="menu-btn">Menu</button>
+      <ul class="header-menu visually-hidden">
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="about">About me</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="benefits">Benefits</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="projects">Projects</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="faq">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header-block">
+      <!-- theme switcher -->
+      <input type="checkbox" id="switch-theme" />
+      <label for="switch-theme"></label>
+      <!-- order button -->
+      <a href="order" class="header-order">Order the Project</a>
+      <!-- mob menu btn -->
+      <button class="header-btn" aria-label="mobileMenuOpen">
+        <svg class="header-btn-icon" width="28px" height="28px">
+          <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-mobile-menu-burger"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <!-- mob menu -->
+  <div class="backdrop change">
+    <div class="mobmenu container">
+      <button class="mobmenu__close" aria-label="mobileMenuClose">
+        <svg class="mobmenu-close-icon" width="28px" height="28px">
+          <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-x"></use>
+        </svg>
+      </button>
+      <ul class="mobmenu-list">
+        <li class="mobmenu-item">
+          <a class="mobmenu-link" href="about">About me</a>
+        </li>
+        <li class="mobmenu-item">
+          <a class="mobmenu-link" href="benefits">Benefits</a>
+        </li>
+        <li class="mobmenu-item">
+          <a class="mobmenu-link" href="projects">Projects</a>
+        </li>
+        <li class="mobmenu-item"><a class="mobmenu-link" href="faq">FAQ</a></li>
+      </ul>
+      <a href="order" class="mobmenu-order">Order the project</a>
+    </div>
+  </div>
+</header>
+
+    <section class="hero change">
+  <div class="container">
+    <h1 class="hero-title">
+      Hello.<br />
+      I’m Fullstack developer Lloyd Jefferson.
+    </h1>
+    <div class="hero-buttons">
+      <!-- <input type="checkbox" id="switch-theme" />
+      <label for="switch-theme"></label> -->
+      <ul class="hero-contacts">
+        <li class="contacts-list">
+          <a
+            class="hero-link"
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+            rel="noopener noreferer"
+            >IG</a
+          >
+        </li>
+        <li class="contacts-list">
+          <a
+            class="hero-link"
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+            rel="noopener noreferer"
+            >FB</a
+          >
+        </li>
+        <li class="contacts-list">
+          <a
+            class="hero-link"
+            href="https://www.youtube.com/c/GoIT"
+            target="_blank"
+            rel="noopener noreferer"
+            >YT</a
+          >
+        </li>
+        <li class="contacts-list">
+          <a
+            class="hero-link"
+            href="https://github.com/laposhko/NotWizards.YET"
+            target="_blank"
+            rel="noopener noreferer"
+            >GH</a
+          >
+        </li>
+        <li class="contacts-list mail">
+          <a href="mailto:lloydjefferson@gmail.com">lloydjefferson@gmail.com</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    <section class="about-section" id="about">
+  <div class="container">
+    <h2 hidden>About</h2>
+    <div class="pictures-container">
+      <ul class="pictures-about">
+        <li class="main-about-block">
+          <p class="main-about-info">
+            I work with people all over the world to create impressive and
+            <span class="functional-word">functional</span
+            ><span class="website-word"> websites</span> that reflect each
+            client's unique personality.
+          </p>
+        </li>
+        <li class="main-about-block">
+          <img
+            class="my-photo"
+            srcset="/js_100_laposhko/assets/mobile-about-61c8dce7.png 343w, /js_100_laposhko/assets/tablet-about-8a4bb94b.png 704w, /js_100_laposhko/assets/desktop-about-9f4ba5df.png 680w, /js_100_laposhko/assets/mobile-about@2x-f6cbd3f0.png 686w, /js_100_laposhko/assets/tablet-about@2x-449596ac.png 1408w, /js_100_laposhko/assets/desktop-about@2x-fa34dd74.png 1360w"
+            sizes="(min-width: 1440px) 680px, (min-width: 768px) 704px, (max-width: 767px) 343px"
+            src="/js_100_laposhko/assets/desktop-about-9f4ba5df.png"
+            alt="me"
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="container-about">
+      <ul class="accordion-list">
+        <li class="accordion-element">
+          <div class="accordion-title">
+            <h3 class="accordion-header">About me</h3>
+            <button class="arrow" type="button">
+              <svg class="arrow-down faq-icon">
+                <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="accordion-description">
+            <p class="ac-text-about-me">
+              I am Lloyd Jefferson, a talented programmer with extensive
+              expertise in software development. I have an understanding of
+              different programming languages and technologies, always ready to
+              improve my skills. I always follow the latest trends and look for
+              unconventional, creative solutions to problems. I have a high
+              level of analytical skills and am able to effectively solve even
+              the most difficult tasks encountered on the way.
+            </p>
+
+            <p class="ac-text-about-me">
+              Able to work both independently and in a team. I can effectively
+              cooperate with colleagues, exchanging ideas and finding optimal
+              solutions. Professional maturity allows you to calmly cope with
+              challenges and stressful situations, while maintaining a high
+              quality of work. I am always looking for opportunities for
+              self-improvement. I actively study new technologies and practices
+              to stay abreast of the latest innovations. I have a strong
+              understanding of various programming languages, frameworks and
+              architectural concepts that allow me to create efficient and
+              scalable software.
+            </p>
+          </div>
+        </li>
+        <li class="accordion-element">
+          <div class="accordion-title">
+            <h3 class="accordion-header">Role</h3>
+            <button class="arrow" type="button">
+              <svg class="arrow-down faq-icon">
+                <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="accordion-description">
+            <p class="accordeon-text-content">Frontend development</p>
+            <p class="accordeon-text-content">HeadlessCMS,Wordpress</p>
+            <p class="accordeon-text-content">Blender(enjoy)</p>
+          </div>
+        </li>
+        <li class="accordion-element">
+          <div class="accordion-title">
+            <h3 class="accordion-header">Education</h3>
+            <button class="arrow" type="button">
+              <svg class="arrow-down faq-icon">
+                <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="accordion-description">
+            <p class="accordeon-text-content">
+              2018 - 2019 / Frontend Development Diploma, GoIT IT <br />School,
+              New York
+            </p>
+            <p class="accordeon-text-content">
+              2019 - 2020 / Advanced Web Development Certificate, GoIT IT<br />
+              School, New York
+            </p>
+            <p class="accordeon-text-content">
+              2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="swiper-container">
+      <div class="skills-container">
+        <ul class="skills-swiper-wrapper swiper-wrapper">
+          <li class="swiper-slide skill-slide">
+            <p class="skill-name">HTML/CSS</p>
+          </li>
+          <li class="swiper-slide skill-slide">
+            <p class="skill-name">JavaScript</p>
+          </li>
+          <li class="swiper-slide skill-slide">
+            <p class="skill-name">React</p>
+          </li>
+          <li class="swiper-slide skill-slide">
+            <p class="skill-name">Node.js</p>
+          </li>
+          <li class="swiper-slide skill-slide">
+            <p class="skill-name">React Native</p>
+          </li>
+          <li class="swiper-slide skill-slide">
+            <p class="skill-name">Figma</p>
+          </li>
+          <li class="swiper-slide skill-slide">
+            <p class="skill-name">Soft Skills</p>
+          </li>
+        </ul>
+      </div>
+      <div class="swipe-next-button">
+        <button class="button-next" type="button">
+          <svg class="svg-arrow-right" width="40" height="40">
+            <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-arrow-narrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="benefits-container" id="benefits">
+  <div class="container">
+    <h2 class="benefits-header">Benefits of working with me</h2>
+    <ul class="benefits-list">
+      <li class="benefits-item">
+        <div class="square-icon">
+          <svg class="icon" width="24" height="24">
+            <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-user"></use>
+          </svg>
+        </div>
+
+        <h4 class="item-header">Expertise</h4>
+        <p class="item-description">
+          As a highly experienced developer, I have deep knowledge of
+          programming and website development.
+        </p>
+      </li>
+      <li class="benefits-item">
+        <div class="square-icon">
+          <svg class="icon" width="24" height="24">
+            <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-message-chat-circle"></use>
+          </svg>
+        </div>
+
+        <h4 class="item-header">Communication</h4>
+        <p class="item-description">
+          Understanding your needs and wants is my priority and I am always open
+          to discussions and corrections.
+        </p>
+      </li>
+      <li class="benefits-item">
+        <div class="square-icon">
+          <svg class="icon" width="24" height="24">
+            <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-brush"></use>
+          </svg>
+        </div>
+        <h4 class="item-header">Art</h4>
+        <p class="item-description">
+          Thanks to my creative nature, I am ready to accept challenges and help
+          you bring your ideas to life.
+        </p>
+      </li>
+      <li class="benefits-item">
+        <div class="square-icon">
+          <svg class="icon" width="24" height="24">
+            <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-hourglass"></use>
+          </svg>
+        </div>
+        <h4 class="item-header">Urgent execution</h4>
+        <p class="item-description">
+          I understand how important time is to you. Ready to work quickly and
+          efficiently, without reducing the quality of work.
+        </p>
+      </li>
+    </ul>
+    <a class="link-order" href="#order">Order the project</a>
+  </div>
+</section>
+
+    <section id="projects" class="projects">
+  <div class="projects-container container">
+    <div class="projects-title-box">
+      <h3 class="projects-title">Projects</h3>
+    </div>
+    <div class="projects-card-contaiter projects-swiper">
+      <ul class="projects-card-list swiper-wrapper">
+        <li class="projects-card swiper-slide">
+          <div class="projects-tags">
+            <ul class="projects-tags-box">
+              <li class="projects-tags-list">#react</li>
+              <li class="projects-tags-list">#js</li>
+              <li class="projects-tags-list">#node js</li>
+              <li class="projects-tags-list">#git</li>
+            </ul>
+            <div class="projects-card-deskr">
+              <p class="projects-card-title">
+                Programming Across Borders: Ideas, Technologies, Innovations
+              </p>
+              <a class="projects-link" href="https://github.com/laposhko/NotWizards.YET" target="_blank">See project</a>
+            </div>
+          </div>
+          <div class="projects-image-box">
+            <picture>
+              <source media="(min-width: 1440px)" srcset="/js_100_laposhko/assets/projects-expand-desktop-e459598f.jpg 1x, /js_100_laposhko/assets/projects-expand-desktop@2x-bac1fb6f.jpg 2x" type="image/jpg" />
+              <source media="(min-width: 768px)" srcset="/js_100_laposhko/assets/projects-expand-tablet-7810cc0c.jpg 1x, /js_100_laposhko/assets/projects-expand-tablet@2x-88966d7b.jpg 2x" type="image/jpg" />
+              <source media="(min-width: 375px)" srcset="/js_100_laposhko/assets/projects-expand-mob-77ce5a06.jpg 1x, /js_100_laposhko/assets/projects-expand-mob@2x-2651358f.jpg 2x" type="image/jpg" />
+              <img class="projects-image" src="/js_100_laposhko/assets/projects-expand-mob-77ce5a06.jpg" alt="registration" width="311"
+                height="195" loading="lazy" />
+            </picture>
+          </div>
+        </li>
+
+        <li class="projects-card swiper-slide">
+          <div class="projects-tags">
+            <ul class="projects-tags-box">
+              <li class="projects-tags-list">#react</li>
+              <li class="projects-tags-list">#js</li>
+              <li class="projects-tags-list">#node js</li>
+              <li class="projects-tags-list">#git</li>
+            </ul>
+            <div class="projects-card-deskr">
+              <p class="projects-card-title">
+                Programming Across Borders: Ideas, Technologies, Innovations
+              </p>
+              <a class="projects-link" href="https://github.com/laposhko/NotWizards.YET" target="_blank">See project</a>
+            </div>
+          </div>
+          <div class="projects-image-box">
+            <picture>
+              <source media="(min-width: 1440px)" srcset="/js_100_laposhko/assets/projects-petlove-tablet-8d36451d.jpg 1x, /js_100_laposhko/assets/projects-petlove-tablet@2x-de46a164.jpg 2x" type="image/jpg" />
+              <source media="(min-width: 768px)" srcset="/js_100_laposhko/assets/projects-petlove-tablet-8d36451d.jpg 1x, /js_100_laposhko/assets/projects-petlove-tablet@2x-de46a164.jpg 2x" type="image/jpg" />
+              <source media="(min-width: 375px)" srcset="/js_100_laposhko/assets/projects-petlove-mob-3ab71e93.jpg 1x, /js_100_laposhko/assets/projects-petlove-mob@2x-f42d2a1a.jpg 2x" type="image/jpg" />
+              <img class="projects-image" src="/js_100_laposhko/assets/projects-petlove-mob-3ab71e93.jpg" alt="petlove" width="311"
+                height="195" loading="lazy" />
+            </picture>
+          </div>
+        </li>
+
+        <li class="projects-card swiper-slide">
+          <div class="projects-tags">
+            <ul class="projects-tags-box">
+              <li class="projects-tags-list">#react</li>
+              <li class="projects-tags-list">#js</li>
+              <li class="projects-tags-list">#node js</li>
+              <li class="projects-tags-list">#git</li>
+            </ul>
+            <div class="projects-card-deskr">
+              <p class="projects-card-title">
+                Programming Across Borders: Ideas, Technologies, Innovations
+              </p>
+              <a class="projects-link" href="https://github.com/laposhko/NotWizards.YET" target="_blank">See project</a>
+            </div>
+          </div>
+          <div class="projects-image-box">
+            <picture>
+              <source media="(min-width: 1440px)" srcset="/js_100_laposhko/assets/projects-register-tablet-e31e2b7c.jpg 1x, /js_100_laposhko/assets/projects-register-tablet@2x-2e6c443c.jpg 2x" type="image/jpg" />
+              <source media="(min-width: 768px)" srcset="/js_100_laposhko/assets/projects-register-tablet-e31e2b7c.jpg 1x, /js_100_laposhko/assets/projects-register-tablet@2x-2e6c443c.jpg 2x" type="image/jpg" />
+              <source media="(min-width: 375px)" srcset="/js_100_laposhko/assets/projects-register-mob-ddc16aa4.jpg 1x, /js_100_laposhko/assets/projects-register-mob@2x-62ffde04.jpg 2x" type="image/jpg" />
+              <img class="projects-image" src="/js_100_laposhko/assets/projects-register-mob-ddc16aa4.jpg" alt="register" width="311"
+                height="195" loading="lazy" />
+            </picture>
+          </div>
+        </li>
+
+        <li class="projects-card swiper-slide">
+          <div class="projects-tags">
+            <ul class="projects-tags-box">
+              <li class="projects-tags-list">#react</li>
+              <li class="projects-tags-list">#js</li>
+              <li class="projects-tags-list">#node js</li>
+              <li class="projects-tags-list">#git</li>
+            </ul>
+            <div class="projects-card-deskr">
+              <p class="projects-card-title">
+                Programming Across Borders: Ideas, Technologies, Innovations
+              </p>
+              <a class="projects-link" href="https://github.com/laposhko/NotWizards.YET" target="_blank">See project</a>
+            </div>
+          </div>
+          <div class="projects-image-box">
+            <picture>
+              <source media="(min-width: 1440px)" srcset="/js_100_laposhko/assets/projects-wallet-0d7b81fe.jpg 1x, /js_100_laposhko/assets/projects-wallet@2x-a8b36947.jpg 2x" type="image/jpg" />
+              <source media="(min-width: 768px)" srcset="/js_100_laposhko/assets/projects-wallet-0d7b81fe.jpg 1x, /js_100_laposhko/assets/projects-wallet@2x-a8b36947.jpg 2x" type="image/jpg" />
+              <source media="(min-width: 375px)" srcset="/js_100_laposhko/assets/projects-wallet-0d7b81fe.jpg 1x, /js_100_laposhko/assets/projects-wallet@2x-a8b36947.jpg 2x" type="image/jpg" />
+              <img class="projects-image" src="/js_100_laposhko/assets/projects-wallet-0d7b81fe.jpg" alt="register" width="311"
+                height="195" loading="lazy" />
+            </picture>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="projects-box-arrow">
+      <button class="projects-buttons swiper-button-prev-left" type="button">
+        <svg width="24" height="24" class="icon-arrow-left">
+          <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-arrow-narrow-left"></use>
+        </svg>
+      </button>
+      <button class="projects-buttons swiper-button-next-right" type="button">
+        <svg width="24" height="24" class="icon-arrow-right">
+          <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-arrow-narrow-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+    <section class="faq-section" id="faq">
+  <div class="container">
+    <h2 class="faq-title">faq</h2>
+
+    <ul class="list accordion-container">
+      <li class="item">
+        <div class="item-box">
+          <h4 class="item-title">
+            What programming languages are most often used in your project?
+          </h4>
+          <button class="btn-arrow-toggl">
+            <svg class="faq-icon">
+              <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+
+        <p class="item-text">
+          In the field of web development, there are various technologies and
+          programming languages. Typically, this includes a combination of
+          frontend (client side) and backend (server side) languages.
+        </p>
+      </li>
+
+      <li class="item">
+        <div class="item-box">
+          <h4 class="item-title">What are the deadlines for the project?</h4>
+          <button class="btn-arrow-toggl">
+            <svg class="faq-icon">
+              <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+
+        <p class="item-text">
+          The terms of project implementation depend to a large extent on a
+          number of factors, such as the scope of the project, its complexity,
+          and the availability of resources. Determining exact deadlines is a
+          difficult task, and it usually occurs during the planning phase of the
+          project.
+        </p>
+      </li>
+
+      <li class="item">
+        <div class="item-box">
+          <h4 class="item-title">What payment methods do you accept?</h4>
+          <button class="btn-arrow-toggl">
+            <svg class="faq-icon">
+              <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+
+        <p class="item-text">
+          Payment through credit and debit cards such as Visa, MasterCard,
+          specialized electronic payment systems such as PayPal, as well as
+          payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+        </p>
+      </li>
+
+      <li class="item">
+        <div class="item-box">
+          <h4 class="item-title">How can I contact you?</h4>
+          <button class="btn-arrow-toggl">
+            <svg class="faq-icon">
+              <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+
+        <p class="item-text">
+          In the field of web development, there are various technologies and
+          programming languages. Typically, this includes a combination of
+          frontend (client side) and backend (server side) languages.
+        </p>
+      </li>
+
+      <li class="item">
+        <div class="item-box">
+          <h4 class="item-title">Do you provide advice or support?</h4>
+          <button class="btn-arrow-toggl">
+            <svg class="faq-icon">
+              <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+
+        <p class="item-text">
+          The terms of project implementation depend to a large extent on a
+          number of factors, such as the scope of the project, its complexity,
+          and the availability of resources. Determining exact deadlines is a
+          difficult task, and it usually occurs during the planning phase of the
+          project.
+        </p>
+      </li>
+
+      <li class="item">
+        <div class="item-box">
+          <h4 class="item-title">
+            What does the process of developing a software product look like
+            from idea to implementation?
+          </h4>
+          <button class="btn-arrow-toggl">
+            <svg class="faq-icon">
+              <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+
+        <p class="item-text">
+          Payment through credit and debit cards such as Visa, MasterCard,
+          specialized electronic payment systems such as PayPal, as well as
+          payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section class="covers-section">
+  <h2 class="visually-hidden">Covers</h2>
+  <div class="content">
+    <ul class="covers-list">
+      <li class="covers-list-item">
+        <img class="covers-image" srcset="/js_100_laposhko/assets/chego_jewelry-1191c353.jpg 1x, /js_100_laposhko/assets/chego_jewelry@2x-eac0e661.jpg 2x" src="/js_100_laposhko/assets/chego_jewelry-1191c353.jpg" alt="chego jewelry" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/starlight_studio-e8b93bb6.jpg 1x, /js_100_laposhko/assets/starlight_studio@2x-6934bc95.jpg 2x" src="/js_100_laposhko/assets/starlight_studio-e8b93bb6.jpg" alt="starlight studio" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/vyshyvanka-64a37946.jpg 1x, /js_100_laposhko/assets/vyshyvanka@2x-744bc708.jpg 2x" src="/js_100_laposhko/assets/vyshyvanka-64a37946.jpg" alt="vyshyvanka" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/green_harvest-28f9707d.jpg 1x, /js_100_laposhko/assets/green_harvest@2x-743f0191.jpg 2x" src="/js_100_laposhko/assets/green_harvest-28f9707d.jpg" alt="green harvest" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/power_pulse-05a42d66.jpg 1x, /js_100_laposhko/assets/power_pulse@2x-e6ed7073.jpg 2x" src="/js_100_laposhko/assets/power_pulse-05a42d66.jpg" alt="power pulse" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/mimino-07b6a216.jpg 1x, /js_100_laposhko/assets/mimino@2x-bf30cea4.jpg 2x" src="/js_100_laposhko/assets/mimino-07b6a216.jpg" alt="mimino" />
+      </li>
+      <li class="covers-list-item">
+        <img class="covers-image" srcset="/js_100_laposhko/assets/power_pulse-05a42d66.jpg 1x, /js_100_laposhko/assets/power_pulse@2x-e6ed7073.jpg 2x" src="/js_100_laposhko/assets/power_pulse-05a42d66.jpg" alt="power pulse" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/mimino-07b6a216.jpg 1x, /js_100_laposhko/assets/mimino@2x-bf30cea4.jpg 2x" src="/js_100_laposhko/assets/mimino-07b6a216.jpg" alt="mimino" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/fruitbox-14676b6a.jpg 1x, /js_100_laposhko/assets/fruitbox@2x-33174f2d.jpg 2x" src="/js_100_laposhko/assets/fruitbox-14676b6a.jpg" alt="fruitbox" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/englishexcellence-38fc4818.jpg 1x, /js_100_laposhko/assets/englishexcellence@2x-d20734b7.jpg 2x" src="/js_100_laposhko/assets/englishexcellence-38fc4818.jpg" alt="english excellence" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/wallet-71f59267.jpg 1x, /js_100_laposhko/assets/wallet@2x-ab1c23e5.jpg 2x" src="/js_100_laposhko/assets/wallet-71f59267.jpg" alt="wallet" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/energy_flow-eedd4e70.jpg 1x, /js_100_laposhko/assets/energy_flow@2x-ecdb81c9.jpg 2x" src="/js_100_laposhko/assets/energy_flow-eedd4e70.jpg" alt="energy flow" />
+      </li>
+      <li class="covers-list-item">
+        <img class="covers-image" srcset="/js_100_laposhko/assets/wallet-71f59267.jpg 1x, /js_100_laposhko/assets/wallet@2x-ab1c23e5.jpg 2x" src="/js_100_laposhko/assets/wallet-71f59267.jpg" alt="wallet" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/starlight_studio-e8b93bb6.jpg 1x, /js_100_laposhko/assets/starlight_studio@2x-6934bc95.jpg 2x" src="/js_100_laposhko/assets/starlight_studio-e8b93bb6.jpg" alt="starlight studio" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/vyshyvanka-64a37946.jpg 1x, /js_100_laposhko/assets/vyshyvanka@2x-744bc708.jpg 2x" src="/js_100_laposhko/assets/vyshyvanka-64a37946.jpg" alt="vyshyvanka" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/chego_jewelry-1191c353.jpg 1x, /js_100_laposhko/assets/chego_jewelry@2x-eac0e661.jpg 2x" src="/js_100_laposhko/assets/chego_jewelry-1191c353.jpg" alt="chego jewelry" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/mimino-07b6a216.jpg 1x, /js_100_laposhko/assets/mimino@2x-bf30cea4.jpg 2x" src="/js_100_laposhko/assets/mimino-07b6a216.jpg" alt="mimino" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/green_harvest-28f9707d.jpg 1x, /js_100_laposhko/assets/green_harvest@2x-743f0191.jpg 2x" src="/js_100_laposhko/assets/green_harvest-28f9707d.jpg" alt="green harvest" />
+      </li>
+      <li class="covers-list-item">
+        <img class="covers-image" srcset="/js_100_laposhko/assets/green_harvest-28f9707d.jpg 1x, /js_100_laposhko/assets/green_harvest@2x-743f0191.jpg 2x" src="/js_100_laposhko/assets/green_harvest-28f9707d.jpg" alt="green harvest" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/fruitbox-14676b6a.jpg 1x, /js_100_laposhko/assets/fruitbox@2x-33174f2d.jpg 2x" src="/js_100_laposhko/assets/fruitbox-14676b6a.jpg" alt="fruitbox" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/energy_flow-eedd4e70.jpg 1x, /js_100_laposhko/assets/energy_flow@2x-ecdb81c9.jpg 2x" src="/js_100_laposhko/assets/energy_flow-eedd4e70.jpg" alt="energy flow" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/power_pulse-05a42d66.jpg 1x, /js_100_laposhko/assets/power_pulse@2x-e6ed7073.jpg 2x" src="/js_100_laposhko/assets/power_pulse-05a42d66.jpg" alt="power pulse" />
+        <img class="covers-image" srcset="/js_100_laposhko/assets/starlight_studio-e8b93bb6.jpg 1x, /js_100_laposhko/assets/starlight_studio@2x-6934bc95.jpg 2x" src="/js_100_laposhko/assets/starlight_studio-e8b93bb6.jpg" alt="starlight studio" />
+      </li>
+    </ul>
+  </div>
+</section>
+    <section class="reviews">
+  <div class="container">
+    <h2 class="review-title">reviews</h2>
+    <div class="reviews-swiper">
+      <ul class="swiper-wrapper review-list"></ul>
+      <div class="review-buttons-wrapper">
+        <button class="previous-btn reviews-btn" type="button">
+          <svg class="reviews-btn-left-icon arrow-item">
+            <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-arrow-narrow-left"></use>
+          </svg>
+        </button>
+        <button class="next-btn reviews-btn" type="button">
+          <svg class="reviews-btn-right-icon arrow-item">
+            <use href="/js_100_laposhko/assets/symbol-defs-a3a32346.svg#icon-arrow-narrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="order" id="order">
+  <div class="container">
+    <div class="all-order">
+      <div class="title-container">
+        <img
+          class="order-image"
+          srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAsACwDASIAAhEBAxEB/8QAHAAAAQQDAQAAAAAAAAAAAAAABwQFBggAAQkD/8QAMRAAAQMDAwQAAgkFAAAAAAAAAQIDBAUGEQASIQcTMUEIFBUiM0JRUmFxgSNDkaGx/8QAGAEAAgMAAAAAAAAAAAAAAAAAAgUAAwT/xAAcEQADAAIDAQAAAAAAAAAAAAAAAQIDEQQSITH/2gAMAwEAAhEDEQA/ALVVyqu95UaMsoSk4UoeSdRqpSW40Z2XKdCGmkla1qPgD3pWskqKj5JydMl6QBU7XqMAkgPMKTxoaelsshbaQM3esMOq1V+DbzXcbZSSqQ4nhWPwGsb6pGkLYRcjG5l04+YaRtCPfI940s6aWJAo8Ha7FZc3A7lkDIVjjUF6vUSLIfW0iqRQ1xhIcACDnH+dLqz2mmNJ40UnKLB0ervIaZl0+WVMuJC0EHKFpPI41P6PUWqhBTIGEKztWknwRoSWZTTSrSpdPL3fMeKhG8e8JGntmQ8ykpbWUgnOBrfNeCup9HFSuNIqrFRPp78NaykOpxuHr8NRjqH1Ns6xFNNXFVO1IdAKWGkFxzb+YpHgcaE92/FNa8UPx7cpUyfI2f0XnsNt7v1HnROey0RX0e0/UEuoWZQqpRjGn0+DImJQpKJoaSF5z5BHI/bOgzdltW5GLEFcfZUvpHcy2l3d3AVAHfznbwNqcccnnOhtaPXu7rfqcl2S4io0+U8p5TDv9oqPOw+v20QbIv23746jUVfzkWCWXTIdMpYRuUFBQSnPk8Y1gy4ck0lPwaYOTiqaqvpY+j0qJS0SPlYzEcyXS86llASkqIAzge8AZPs6VnzrEvNvpDjLiHGz4UhQIP8AI1rW0VlIPibgVmndZLjYuBDnfVKUuOpWdq45+yKf02YHHggjyDoPuqG/6vrXVTrP0ss/qXQuzcsJz5mIhSos2MsNyGOMkBWCCD+VQI94zzrmL1Ao0Wg3XNpcNx5bLKylKnSCo8+8AD/WrmynXozhW5OD7/7rzWnH8nW0eNbe+11CEktC+7vtSoRptIrk1AYP1WFvKUyoe0lBOMa6L9EZLl/9NKVdkyC7TnJ6CrsuJIyAdu5OfukgkH2MHVbPg66KWPfLCrgudibPVDUlaIangmO4c/fSE7lDjxuwfYI1edhpphhthhtDTTaQhCEJCUpSBgAAeABoWkEmz//Z 44w, data:image/jpeg;base64,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 88w, data:image/jpeg;base64,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 70w, /js_100_laposhko/assets/image-tablet@2x-a0590519.jpeg 140w"
+          sizes="(min-width: 1440px) 70px, (min-width: 768px) 70px, (max-width: 767px) 44px"
+          src="../img/workTogether-img/image-mobile.jpeg"
+          alt="photo of the candidate"
+          width="70"
+          height="70"
+        />
+        <h2 class="order-title">
+          Let’s <span class="text-order"> work </span> <br />
+          <span class="text-title">together</span>
+        </h2>
+      </div>
+      <form class="order-form" autocomplete="off">
+        <div class="field-wrapper">
+          <label for="user-email">
+            <input
+              class="field email-field"
+              type="email"
+              placeholder="clients@gmail.com"
+              name="user-email"
+              id="user-email"
+              required
+              pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+            />
+            <span class="error is-hidden">Not succes!</span>
+            <span class="succes is-hidden">Succes!</span>
+          </label>
+          <label for="user-comments">
+            <textarea
+              class="field comments"
+              name="user-comments"
+              id="user-comments"
+              placeholder="comments"
+              rows="1"
+            ></textarea>
+          </label>
+        </div>
+        <button class="order-button" type="submit">Send</button>
+      </form>
+      <address>
+        <ul class="address-list">
+          <li class="mail-item adress-item">
+            <a href="mailto:lloydjefferson@gmail.com"
+              >lloydjefferson@gmail.com</a
+            >
+          </li>
+          <li class="phone-item adress-item">
+            <a href="tel:+3801111111111">+380 11 1111 11 11</a>
+          </li>
+        </ul>
+      </address>
+    </div>
+  </div>
+</section>
+
+    
+  </body>
+</html>
